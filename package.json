@@ -1,0 +1,31 @@
+{
+  "name": "buildtoolsv2",
+  "description": "Garçon and grunt based buildtools for sproutcore, based on sproutcore",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mauritslamers/buildtoolsv2.git"
+  },
+  "keywords": [
+    "node.js",
+    "sproutcore"
+  ],
+  "author": "Maurits Lamers <mauritslamers@gmail.com>",
+  "main": "./lib/garcon.js",
+  "contributors": [
+    "Jeff Pittman"
+  ],
+  "dependencies": {
+    "sc-runtime": "git://github.com/mauritslamers/sc-runtime.git",
+    "grunt": "~0.4.1",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-compass": "~0.6.0",
+    "grunt-contrib-uglify": "~0.2.5"
+  },
+  "version": "0.6.0",
+  "bin": {
+    "sproutcore": "./bin/sproutcore"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}
