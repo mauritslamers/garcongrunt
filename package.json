@@ -16,12 +16,12 @@
   ],
   "dependencies": {
     "sc-runtime": "git://github.com/mauritslamers/sc-runtime.git",
-    "grunt": "~0.4.1",
+    "grunt": "git://github.com/mauritslamers/grunt.git",
     "grunt-contrib-concat": "~0.3.0",
     "grunt-contrib-compass": "~0.6.0",
     "grunt-contrib-uglify": "~0.2.5"
   },
-  "version": "0.6.0",
+  "version": "0.1.0",
   "bin": {
     "sproutcore": "./bin/sproutcore"
   },
